@@ -1,0 +1,89 @@
+body{
+	background-color: #A020F0;
+	font-family: trebuchet ms;
+	color: #4C4C4C;
+	text-shadow: 3px 3px 3px #FFFFFF;
+}
+input{
+	border: 2px outset #FFFFFF;
+	border-radius: 5px;
+	text-shadow: 3px 3px 3px #FFFFFF;
+	background-color: #90EE90;
+	margin: 3px;
+	color: #000000;
+	padding: 3px;
+}
+input.reset{
+	background-color: #FF0E00;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: none;
+}
+input.custom{
+	background-color: #2525FF;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: none;
+}
+input:hover{
+	background-color: #CAFFCA;
+}
+input.reset:hover{
+	background-color: #B10000;
+}
+input.custom:hover{
+	background-color: #00008C;
+}
+p{
+	clear: both;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 30px 0px 0px 0px;
+}
+#main{
+	width: 700px;
+	margin: 20px auto auto auto;
+	border: thin solid #FFFFFF;
+	background-color: #EFEFEF;
+	box-shadow: 3px 3px #4E4E4E;
+	border-radius: 10px;
+}
+#animasi-area{
+	padding: 10px 0px 10px 0px;
+}
+#kontrol-area{
+	border-top: thin solid #FFFFFF;
+	padding: 10px 0px 10px 0px;
+}
+#status-area{
+	width: 200px;
+	float: right;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border: thin solid #FFFFFF;
+	background-color: #EFEFEF;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 0px 10px #4E4E4E;
+}
+#status-ajax{
+	width: 100%;
+	background-color: #F8F8F8;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	color: #00C600;
+	margin: 5px 0px 10px 0px;
+	border: thin solid #FFFFFF;
+}
+#kepala{
+	padding: 10px 0px 30px 0px;
+	font-weight: bold;
+	color: #0000FF;
+}
+#anggota, #blink-anggota{
+	color: #0000FF;
+}
+#d01, #d11, #d21, #d31, #d41, #d51, #d61, #d71{
+	cursor: pointer;
+}
